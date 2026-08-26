@@ -1,11 +1,14 @@
 import Image from 'next/image';
 
+const assetBase = process.env.GITHUB_PAGES === 'true' ? '/sort-it-vr' : '';
+const asset = (name: string) => `${assetBase}/${name}`;
+
 export default function Home() {
   return (
     <main>
       <nav className="nav" aria-label="Ana menü">
         <a className="brand" href="#top" aria-label="Sort It ana sayfa">
-          <Image src="/sortit-logo.png" alt="Sort It" width={220} height={90} priority />
+          <Image src={asset('sortit-logo.png')} alt="Sort It" width={220} height={90} priority />
         </a>
         <div className="navLinks">
           <a href="#nasil">Nasıl Oynanır?</a>
@@ -40,7 +43,7 @@ export default function Home() {
           <div className="floorShadow" />
           <Image
             className="character"
-            src="/sortit-character.png"
+            src={asset('sortit-character.png')}
             alt="Renkli blokları kutulara ayıran Sort It karakteri"
             width={1024}
             height={1024}
@@ -122,7 +125,7 @@ export default function Home() {
         <div className="duelVisual">
           <div className="versus"><span>OYUNCU 1</span><b>VS</b><span>OYUNCU 2</span></div>
           <div className="screenFrame">
-            <Image src="/sortit-gameplay.jpeg" alt="Sort It VR oyun prototipinden ekran görüntüleri" width={1600} height={1129} />
+            <Image src={asset('sortit-gameplay.jpeg')} alt="Sort It VR oyun prototipinden ekran görüntüleri" width={1600} height={1129} />
             <div className="screenGlare" />
           </div>
           <div className="winnerTag">★ SERİ +5</div>
@@ -145,14 +148,14 @@ export default function Home() {
 
       <section className="finalCta">
         <div className="ctaShapes"><i /><i /><i /></div>
-        <Image src="/sortit-logo.png" alt="Sort It" width={640} height={260} />
+        <Image src={asset('sortit-logo.png')} alt="Sort It" width={640} height={260} />
         <h2>VARDİYAYA<br />HAZIR MISIN?</h2>
         <p>Başlığını tak. İpuçlarını yakala. Düzeni herkesten hızlı kur.</p>
         <a href="#top" className="ctaButton">OYUNU KEŞFET <span>↗</span></a>
       </section>
 
       <footer>
-        <a className="footerLogo" href="#top"><Image src="/sortit-logo.png" alt="Sort It" width={220} height={90} /></a>
+        <a className="footerLogo" href="#top"><Image src={asset('sortit-logo.png')} alt="Sort It" width={220} height={90} /></a>
         <p>© 2026 SORT IT! — XR LAB</p>
         <a href="#top">YUKARI DÖN ↑</a>
       </footer>

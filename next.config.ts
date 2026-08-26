@@ -1,5 +1,15 @@
 import type { NextConfig } from 'next';
 
-const nextConfig: NextConfig = {};
+const isGitHubPages = process.env.GITHUB_PAGES === 'true';
+
+const nextConfig: NextConfig = isGitHubPages
+  ? {
+      output: 'export',
+      basePath: '/sort-it-vr',
+      assetPrefix: '/sort-it-vr',
+      images: { unoptimized: true },
+      trailingSlash: true,
+    }
+  : {};
 
 export default nextConfig;
