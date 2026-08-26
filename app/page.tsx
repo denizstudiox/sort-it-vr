@@ -125,7 +125,7 @@ export default function Home() {
         <div className="duelVisual">
           <div className="versus"><span>OYUNCU 1</span><b>VS</b><span>OYUNCU 2</span></div>
           <div className="screenFrame">
-            <Image src={asset('sortit-gameplay.jpeg')} alt="Sort It VR oyun prototipinden ekran görüntüleri" width={1600} height={1129} />
+            <Image src={asset('sortit-gameplay.jpeg')} alt="Sort It VR oyun içi görüntüsü" width={1600} height={900} />
             <div className="screenGlare" />
           </div>
           <div className="winnerTag">★ SERİ +5</div>
