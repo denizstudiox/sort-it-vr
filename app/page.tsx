@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <main>
       <nav className="nav" aria-label="Ana menü">
-        <a className="brand" href="#top" aria-label="Sort It ana sayfa">
-          <Image src={asset('sortit-logo.png')} alt="Sort It" width={220} height={90} priority />
+        <a className="brand" href="#top" aria-label="Sort It! ana sayfa">
+          <Image src={asset('sortit-logo.png')} alt="Sort It!" width={220} height={90} priority />
         </a>
         <div className="navLinks">
           <a href="#nasil">Nasıl Oynanır?</a>
@@ -27,7 +27,7 @@ export default function Home() {
           <h1>DÜZENİ<br /><span>HİSSET.</span></h1>
           <p>
             Nesneyi salla, başına yaklaştır veya kontrolcüdeki titreşimi hisset.
-            Sort It, reflekslerini sanal gerçekliğin içinde sınar.
+            Sort It! reflekslerini sanal gerçekliğin içinde sınar.
           </p>
           <div className="heroActions">
             <a className="primaryButton" href="#deneyimle">VR&apos;DA DENE <b>→</b></a>
@@ -36,7 +36,7 @@ export default function Home() {
           <div className="platform"><span>VR</span><p><b>BAŞLIĞINI TAK</b><br />Vardiyanı başlat</p></div>
         </div>
 
-        <div className="heroVisual" aria-label="Sort It oyun karakteri ve renkli bloklar">
+        <div className="heroVisual" aria-label="Sort It! oyun karakteri ve renkli bloklar">
           <div className="statusPill"><i /> SİSTEM ÇEVRİMİÇİ</div>
           <div className="floatingCube cubePink" />
           <div className="floatingCube cubeOrange" />
@@ -44,7 +44,7 @@ export default function Home() {
           <Image
             className="character"
             src={asset('sortit-character.png')}
-            alt="Renkli blokları kutulara ayıran Sort It karakteri"
+            alt="Renkli blokları kutulara ayıran Sort It! karakteri"
             width={1024}
             height={1024}
             priority
@@ -93,7 +93,8 @@ export default function Home() {
           <div className="stageContent">
             <div className="bin binBlue"><span>SESLİ</span><i /></div>
             <div className="sortObject"><span>?</span></div>
-            <div className="bin binPink"><span>PARLAK</span><i /></div>
+            <div className="bin binOrange"><span>PARLAK</span><i /></div>
+            <div className="bin binGray"><span>AĞIR</span><i /></div>
           </div>
           <div className="stageScore"><small>SIRALAMA</small><b>#01</b><span>2.450 PUAN</span></div>
           <div className="stageCaption">ETKİLEŞ • İPUCUNU ÇÖZ • YERLEŞTİR</div>
@@ -124,7 +125,7 @@ export default function Home() {
         <div className="duelVisual">
           <div className="versus"><span>OYUNCU 1</span><b>VS</b><span>OYUNCU 2</span></div>
           <div className="screenFrame">
-            <Image src={asset('sortit-gameplay.jpeg')} alt="Sort It VR oyun içi görüntüsü" width={1600} height={900} />
+            <Image src={asset('sortit-gameplay.jpeg')} alt="Sort It! VR oyun içi görüntüsü" width={1600} height={900} />
             <div className="screenGlare" />
           </div>
           <div className="winnerTag">★ DOĞRU +100</div>
@@ -147,14 +148,14 @@ export default function Home() {
 
       <section className="finalCta">
         <div className="ctaShapes"><i /><i /><i /></div>
-        <Image src={asset('sortit-logo.png')} alt="Sort It" width={640} height={260} />
+        <Image src={asset('sortit-logo.png')} alt="Sort It!" width={640} height={260} />
         <h2>VARDİYAYA<br />HAZIR MISIN?</h2>
         <p>Başlığını tak. İpuçlarını yakala. Düzeni herkesten hızlı kur.</p>
         <a href="#top" className="ctaButton">OYUNU KEŞFET <span>↗</span></a>
       </section>
 
       <footer>
-        <a className="footerLogo" href="#top"><Image src={asset('sortit-logo.png')} alt="Sort It" width={220} height={90} /></a>
+        <a className="footerLogo" href="#top" aria-label="Sort It! ana sayfa"><Image src={asset('sortit-logo.png')} alt="Sort It!" width={220} height={90} /></a>
         <p>© 2026 SORT IT! — XR LAB</p>
         <a href="#top">YUKARI DÖN ↑</a>
       </footer>
