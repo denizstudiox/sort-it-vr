@@ -49,7 +49,7 @@ export default function Home() {
             height={1024}
             priority
           />
-          <div className="scoreCard"><small>DOĞRU SERİ</small><strong>+08</strong><div><i /><i /><i /></div></div>
+          <div className="scoreCard"><small>DOĞRU YERLEŞİM</small><strong>+08</strong><div><i /><i /><i /></div></div>
         </div>
 
         <div className="scrollHint"><span>SCROLL</span><i /></div>
@@ -115,11 +115,10 @@ export default function Home() {
         <div className="duelCopy">
           <span className="kicker">03 / REKABET</span>
           <h2>AYNI ANDA.<br /><em>AYNI HEDEF.</em></h2>
-          <p>Rakibinle aynı vardiyaya gir. Seri bonuslarını koru, hatalardan kaçın ve süre bittiğinde zirvede kal.</p>
+          <p>Rakibinle aynı vardiyaya gir. Nesneleri doğru kutulara yerleştir, hatalardan kaçın ve süre bittiğinde zirvede kal.</p>
           <div className="featureList">
             <div><span>01</span><p><b>GERÇEK ZAMANLI DÜELLO</b><small>İki oyuncu, eş zamanlı tempolu mücadele.</small></p></div>
-            <div><span>02</span><p><b>SERİ VE KOMBO SİSTEMİ</b><small>Arka arkaya doğrularla puanını katla.</small></p></div>
-            <div><span>03</span><p><b>HER TUR YENİ MEYDAN OKUMA</b><small>Değişen obje akışıyla ezberi boz.</small></p></div>
+            <div><span>02</span><p><b>HER TUR YENİ MEYDAN OKUMA</b><small>Değişen obje akışıyla ezberi boz.</small></p></div>
           </div>
         </div>
         <div className="duelVisual">
@@ -128,7 +127,7 @@ export default function Home() {
             <Image src={asset('sortit-gameplay.jpeg')} alt="Sort It VR oyun içi görüntüsü" width={1600} height={900} />
             <div className="screenGlare" />
           </div>
-          <div className="winnerTag">★ SERİ +5</div>
+          <div className="winnerTag">★ DOĞRU +100</div>
         </div>
       </section>
 
