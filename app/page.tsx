@@ -26,7 +26,7 @@ export default function Home() {
           <div className="eyebrow"><i /> VR • Hız • Sezgi</div>
           <h1>DÜZENİ<br /><span>HİSSET.</span></h1>
           <p>
-            Sesleri dinle, titreşimi takip et, nesneleri doğru kutuya yerleştir.
+            Nesneyi salla, başına yaklaştır veya kontrolcüdeki titreşimi hisset.
             Sort It, reflekslerini sanal gerçekliğin içinde sınar.
           </p>
           <div className="heroActions">
@@ -65,24 +65,24 @@ export default function Home() {
             <span className="kicker">01 / OYNANIŞ</span>
             <h2>İPUCUNU YAKALA.<br /><em>DOĞRU YERE BIRAK.</em></h2>
           </div>
-          <p>Her obje sana farklı bir sinyal verir. Dikkatini topla, kategorisini keşfet ve süre dolmadan kutusuyla buluştur.</p>
+          <p>Her obje, doğru etkileşim uygulandığında ipucunu açığa çıkarır. Nesneyi salla, başına yaklaştır ya da kontrolcüdeki titreşimi hisset; sonra süre dolmadan doğru kutuya yerleştir.</p>
         </div>
 
         <div className="signalGrid">
           <article className="signalCard soundCard">
             <div className="signalNumber">01</div>
             <div className="signalIcon soundIcon"><span>♪</span><i /><i /></div>
-            <div><small>KULAĞINI AÇ</small><h3>SES</h3><p>Objenin sesini dinle. Doğru kategori bazen kendini fısıldar.</p></div>
+            <div><small>NESNEYİ SALLA</small><h3>SES</h3><p>Nesneyi salladığında ses çıkıyorsa sesli kategoriye aittir.</p></div>
           </article>
           <article className="signalCard glowCard">
             <div className="signalNumber">02</div>
             <div className="signalIcon glowIcon"><span>✦</span></div>
-            <div><small>GÖZÜNÜ AYIRMA</small><h3>PARILTI</h3><p>Renk ve ışık değişimlerini izle. Parlayan yüzey seni doğru kutuya götürür.</p></div>
+            <div><small>BAŞINA YAKLAŞTIR</small><h3>PARILTI</h3><p>Nesneyi başına yaklaştırdığında parlıyorsa parlak kategoriye aittir.</p></div>
           </article>
           <article className="signalCard rumbleCard">
             <div className="signalNumber">03</div>
             <div className="signalIcon rumbleIcon"><span>▰</span><i /><i /></div>
-            <div><small>KONTROLCÜYÜ HİSSET</small><h3>TİTREŞİM</h3><p>Dokunsal geri bildirimin ritmini çöz. Ellerindeki sinyale güven.</p></div>
+            <div><small>AĞIRLIĞI HİSSET</small><h3>TİTREŞİM</h3><p>Ağır nesneyi tuttuğunda kontrolcü titrer; bu titreşim ağır kategori ipucudur.</p></div>
           </article>
         </div>
       </section>
@@ -96,13 +96,13 @@ export default function Home() {
             <div className="bin binPink"><span>PARLAK</span><i /></div>
           </div>
           <div className="stageScore"><small>SIRALAMA</small><b>#01</b><span>2.450 PUAN</span></div>
-          <div className="stageCaption">TUT • İNCELE • FIRLAT</div>
+          <div className="stageCaption">ETKİLEŞ • İPUCUNU ÇÖZ • YERLEŞTİR</div>
         </div>
 
         <div className="gameplayCopy">
           <span className="kicker light">02 / DENEYİM</span>
           <h2>HER SANİYE<br /><em>ÖNEMLİ.</em></h2>
-          <p>Vardiya başladığında durmak yok. Nesneleri kavra, farklı duyusal ipuçlarını çöz ve hızınla doğruluğun arasında kusursuz dengeyi kur.</p>
+          <p>Vardiya başladığında nesneleri salla, başına yaklaştır ve ağırlık titreşimini hisset. Ortaya çıkan ipucunu yorumlayıp doğru kutuya yerleştir.</p>
           <ul>
             <li><b>90</b><span>SANİYELİK<br />VARDİYALAR</span></li>
             <li><b>03</b><span>FARKLI<br />İPUCU TİPİ</span></li>
