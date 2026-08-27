@@ -143,7 +143,7 @@ export default function Home() {
           <article><span>EA</span><div><small>GELİŞTİRİCİ</small><h3>EKREM EFE ARKUN</h3></div><a className="linkedinLink" href="https://www.linkedin.com/in/ekremefearkun" target="_blank" rel="noopener noreferrer" aria-label="Ekrem Efe Arkun LinkedIn profilini aç"><b>in</b><i>LinkedIn</i><em>↗</em></a></article>
           <article className="advisor"><span>BÇ</span><div><small>DANIŞMAN</small><h3>DOÇ. DR. BARIŞ ÇUKURBAŞI</h3></div><a className="linkedinLink" href="https://www.linkedin.com/in/barocraft" target="_blank" rel="noopener noreferrer" aria-label="Barış Çukurbaşı LinkedIn profilini aç"><b>in</b><i>LinkedIn</i><em>↗</em></a></article>
         </div>
-        <div className="labNote"><b>XRLab</b><span>Manisa Celal Bayar Üniversitesi<br />Extended Reality Laboratory</span></div>
+        <div className="labNote"><b>XRLAB</b><span>Manisa Celal Bayar Üniversitesi<br />Extended Reality Laboratory</span></div>
       </section>
 
       <section className="finalCta">
@@ -156,7 +156,7 @@ export default function Home() {
 
       <footer>
         <a className="footerLogo" href="#top" aria-label="Sort It! ana sayfa"><Image src={asset('sortit-logo.png')} alt="Sort It!" width={220} height={90} /></a>
-        <p>© 2026 SORT IT! — XRLab</p>
+        <p>© 2026 SORT IT! — XRLAB</p>
         <a href="#top">YUKARI DÖN ↑</a>
       </footer>
     </main>
