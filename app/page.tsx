@@ -138,10 +138,10 @@ export default function Home() {
           <h2>OYUNU<br /><em>KURANLAR.</em></h2>
         </div>
         <div className="teamCards">
-          <article><span>DA</span><div><small>GELİŞTİRİCİ</small><h3>DENİZ AKKOYUN</h3></div></article>
-          <article><span>ME</span><div><small>GELİŞTİRİCİ</small><h3>MUHAMMED ERYILMAZ</h3></div></article>
-          <article><span>EA</span><div><small>GELİŞTİRİCİ</small><h3>EKREM EFE ARKUN</h3></div></article>
-          <article className="advisor"><span>BÇ</span><div><small>DANIŞMAN</small><h3>DOÇ. DR. BARIŞ ÇUKURBAŞI</h3></div></article>
+          <article><span>DA</span><div><small>GELİŞTİRİCİ</small><h3>DENİZ AKKOYUN</h3></div><a className="linkedinLink" href="https://www.linkedin.com/in/deniz-akkoyun" target="_blank" rel="noopener noreferrer" aria-label="Deniz Akkoyun LinkedIn profilini aç"><b>in</b><i>LinkedIn</i><em>↗</em></a></article>
+          <article><span>ME</span><div><small>GELİŞTİRİCİ</small><h3>MUHAMMED ERYILMAZ</h3></div><a className="linkedinLink" href="https://www.linkedin.com/in/muhery" target="_blank" rel="noopener noreferrer" aria-label="Muhammed Eryılmaz LinkedIn profilini aç"><b>in</b><i>LinkedIn</i><em>↗</em></a></article>
+          <article><span>EA</span><div><small>GELİŞTİRİCİ</small><h3>EKREM EFE ARKUN</h3></div><a className="linkedinLink" href="https://www.linkedin.com/in/ekremefearkun" target="_blank" rel="noopener noreferrer" aria-label="Ekrem Efe Arkun LinkedIn profilini aç"><b>in</b><i>LinkedIn</i><em>↗</em></a></article>
+          <article className="advisor"><span>BÇ</span><div><small>DANIŞMAN</small><h3>DOÇ. DR. BARIŞ ÇUKURBAŞI</h3></div><a className="linkedinLink" href="https://www.linkedin.com/in/barocraft" target="_blank" rel="noopener noreferrer" aria-label="Barış Çukurbaşı LinkedIn profilini aç"><b>in</b><i>LinkedIn</i><em>↗</em></a></article>
         </div>
         <div className="labNote"><b>XR LAB</b><span>Manisa Celal Bayar Üniversitesi<br />Extended Reality Laboratory</span></div>
       </section>
